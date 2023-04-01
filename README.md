@@ -25,14 +25,25 @@ Sample menu json:
 }
 ```
 
-__title__ - menu title
-
-__refresh__ (optional) - refresh rate (seconds) -- after given time menu will be reloaded automatically
-
-__items__ - list of menu items
-
-__items.title__ - menu item ititle
-
-__items.request__ (optional) - URL for request to be sent when user hits menu element
-
+__title__ - menu title  
+__refresh__ (optional) - refresh rate (seconds) -- after given time menu will be reloaded automatically  
+__items__ - list of menu items  
+__items.title__ - menu item ititle  
+__items.request__ (optional) - URL for request to be sent when user hits menu element  
 __items.url__ (optional) - URL for menu to load when user hits menu element
+
+### Hardware
+
+__Controller:__ Wemos D1 mini
+
+__Display:__
+
+Oled i2c Display 128×64  
+SCREEN_SDA connected to D2  
+SCREEN_SCL connected to D1
+
+__Rotary encoder:__
+
+ROTARY_ENCODER_A_PIN connected to D5  
+ROTARY_ENCODER_B_PIN connected to D6  
+ROTARY_ENCODER_BUTTON_PIN connected to D7
